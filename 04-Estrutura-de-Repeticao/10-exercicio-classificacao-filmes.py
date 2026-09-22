@@ -31,3 +31,21 @@
 # Digite o nome do filme: sair
 
 # Programa encerrado!
+
+
+idade = int(input("Qual é a sua idade? "))
+
+filme = input("Digite o nome do filme: ")
+
+while filme != "sair": 
+
+    classificacao = int(input("Qual é a classificação do filme? "))
+
+    if idade >= classificacao:
+        print("Você pode assistir!")
+    else:
+        print("Você não pode assistir!")
+
+    filme = input("Digite outro filme: (ou digite 'sair' para finalizar)")
+
+print("Programa encerrado!")
