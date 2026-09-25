@@ -17,3 +17,10 @@ alunos = {
     "Mariana": 19,
     "Pedro": 18
 }
+
+# Percorrendo Dicionário
+for nome, idade in alunos.items():
+
+    # Verificando a idade
+    if idade >= 18:
+        print(nome, "é maior de idade:", idade, "anos")
